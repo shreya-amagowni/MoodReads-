@@ -1,0 +1,35 @@
+body{
+    background-color: #A7C1A8;
+    text-align: center;
+    color: #432323;
+}
+
+
+.books{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.book-display h4{
+  width: 200px;
+}
+
+.mood-buttons button {
+  width: 30%; 
+  height: 50px;
+  font-size: 1em;
+  margin:10px;
+  background-color: #EEEFE0;
+  color: #432323;
+
+}
+
+#book-search{
+  width:300px;
+  margin: 20px;
+  
+
+}
